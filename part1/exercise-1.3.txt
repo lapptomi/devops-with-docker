@@ -1,0 +1,42 @@
+Script started on Fri Feb  4 16:42:56 2022
+Restored session: Fri Feb  4 16:41:16 EET 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS          PORTS     NAMES
+cc2e0a0b63ce   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   2 minutes ago   Up 11 seconds             dazzling_kowalevski
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker exec -it cc bash[?2004l
+]0;root@cc2e0a0b63ce: /usr/src/approot@cc2e0a0b63ce:/usr/src/app# ls
+[0m[01;32mserver[0m  text.log
+]0;root@cc2e0a0b63ce: /usr/src/approot@cc2e0a0b63ce:/usr/src/app# tail -f text.log 
+2022-02-04 14:43:28 +0000 UTC
+2022-02-04 14:43:30 +0000 UTC
+2022-02-04 14:43:32 +0000 UTC
+2022-02-04 14:43:34 +0000 UTC
+2022-02-04 14:43:36 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-04 14:43:38 +0000 UTC
+2022-02-04 14:43:40 +0000 UTC
+2022-02-04 14:43:42 +0000 UTC
+2022-02-04 14:43:44 +0000 UTC
+2022-02-04 14:43:46 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-04 14:43:48 +0000 UTC
+2022-02-04 14:43:50 +0000 UTC
+2022-02-04 14:43:52 +0000 UTC
+2022-02-04 14:43:54 +0000 UTC
+2022-02-04 14:43:56 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-04 14:43:58 +0000 UTC
+2022-02-04 14:44:00 +0000 UTC
+2022-02-04 14:44:02 +0000 UTC
+2022-02-04 14:44:04 +0000 UTC
+2022-02-04 14:44:06 +0000 UTC
+^C
+]0;root@cc2e0a0b63ce: /usr/src/approot@cc2e0a0b63ce:/usr/src/app# exit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Fri Feb  4 16:44:16 2022
