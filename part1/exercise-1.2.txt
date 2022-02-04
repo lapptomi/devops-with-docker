@@ -1,0 +1,59 @@
+Script started on Fri Feb  4 16:08:24 2022
+Restored session: Fri Feb  4 16:05:14 EET 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker system prune -a[?2004l
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all images without at least one container associated to them
+  - all build cache
+
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+2db7e1904c645f8d861f374c568fa8e8a12cec54460c2a3ac44cc4efa8c5e411
+e6809637fafa445579daabebd7c65b461bbf0a8f9b51cce467b7716dfb23a10e
+
+Total reclaimed space: 2.186kB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker images[?2004l
+REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
+nginx        latest    2e7e2ec411a6   9 days ago   134MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker ps -a[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS     NAMES
+d7cdd059ee7e   nginx     "/docker-entrypoint.…"   4 minutes ago   Up 4 minutes   80/tcp    nginx-1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hdocker ps -aimagessystem prune -a --force[?2004l
+Total reclaimed space: 0B
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker container stop d7[?2004l
+d7
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hdocker container stop d7[17Dsystem prune -a --force       [?2004l
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all images without at least one container associated to them
+  - all build cache
+
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+d7cdd059ee7e87c0c7733c66781937fe909e2878e48559939a15d77eeaff63a0
+
+Deleted Images:
+untagged: nginx:latest
+untagged: nginx@sha256:2834dc507516af02784808c5f48b7cbe38b8ed5d0f4837f16e78d00deb7e7767
+deleted: sha256:2e7e2ec411a6fdeee34c78b4d41d9a7f6d4cd311f320f03bcec11a239f524341
+deleted: sha256:b7cc44322b624c073981acf26b9bca091673ec0d5137c34757c7263a3ce7d197
+deleted: sha256:3692ea5ebe7228e3bf804f79cfd592a8b8baffabadda2f0568a609bc38c88d16
+deleted: sha256:f2a9b7c8cf9891bacd66524d0f2af6dcb0f4e84ab52cb939ebd1d19c1e1023bc
+deleted: sha256:e845c985586a35b927c382c5fc88df90a13e8f04365b3e241d14df955b72c04e
+deleted: sha256:19b0f4bd6ef71f515ee4ec7e5c6acd75ffbfbd78e9e33fd87515c047ee6f65a1
+deleted: sha256:f9b44a5812beb5294f1cf3b76cf9c29f1e53bf8eec7cece1b002fc5b5fbae8f2
+
+Total reclaimed space: 134.5MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker images[?2004l
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker ps -a[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Fri Feb  4 16:09:56 2022

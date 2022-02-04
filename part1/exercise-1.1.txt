@@ -1,0 +1,29 @@
+Script started on Fri Feb  4 16:04:00 2022
+Restored session: Fri Feb  4 15:58:52 EET 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker run --name nginx-1 -d nginx[?2004l
+d7cdd059ee7e87c0c7733c66781937fe909e2878e48559939a15d77eeaff63a0
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker run --name nginx-2 -d nginx[?2004l
+e6809637fafa445579daabebd7c65b461bbf0a8f9b51cce467b7716dfb23a10e
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker run --name nginx-3 -d nginx[?2004l
+2db7e1904c645f8d861f374c568fa8e8a12cec54460c2a3ac44cc4efa8c5e411
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+2db7e1904c64   nginx     "/docker-entrypoint.…"   11 seconds ago   Up 11 seconds   80/tcp    nginx-3
+e6809637fafa   nginx     "/docker-entrypoint.…"   20 seconds ago   Up 20 seconds   80/tcp    nginx-2
+d7cdd059ee7e   nginx     "/docker-entrypoint.…"   31 seconds ago   Up 31 seconds   80/tcp    nginx-1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker container stop 2d[?2004l
+2d
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker container stop e6[?2004l
+e6
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004hddocker ps -a[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
+2db7e1904c64   nginx     "/docker-entrypoint.…"   33 seconds ago   Exited (0) 11 seconds ago             nginx-3
+e6809637fafa   nginx     "/docker-entrypoint.…"   42 seconds ago   Exited (0) 3 seconds ago              nginx-2
+d7cdd059ee7e   nginx     "/docker-entrypoint.…"   53 seconds ago   Up 53 seconds               80/tcp    nginx-1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                          ]7;file://MacBook-Air.local/Users/lapptomi/Desktop/devops-with-docker[0m[27m[24m[J(base) lapptomi@MacBook-Air devops-with-docker % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Fri Feb  4 16:05:14 2022
