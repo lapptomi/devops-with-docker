@@ -43,3 +43,6 @@ target
 secrets.yml
 .gradletasknamecache
 .sts4-cache
+ml-kurkkumopo-backend
+ml-kurkkumopo-frontend
+ml-kurkkumopo-training
