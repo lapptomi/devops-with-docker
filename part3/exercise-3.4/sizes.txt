@@ -1,0 +1,5 @@
+REPOSITORY                TAG       IMAGE ID       CREATED          SIZE
+exercise-3.3-client       latest    18a6298b7779   7 seconds ago    1.16GB
+exercise-3.3-client-new   latest    b23ed7123ba9   2 minutes ago    416MB
+exercise-3.3-server-new   latest    b97d576d9218   8 minutes ago    463MB
+exercise-3.3-server       latest    98cfaa6ccd70   16 minutes ago   955MB
