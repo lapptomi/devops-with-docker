@@ -1,4 +1,4 @@
-Running container
+# Running container
 
 ## Build the Dockerfile
 docker build -t shell-script .
